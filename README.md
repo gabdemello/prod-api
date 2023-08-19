@@ -56,6 +56,6 @@ Para executar o projeto localmente, siga as etapas abaixo:
 
 ---
 
-Este é um projeto de exemplo e pode ser aprimorado de várias maneiras, como autenticação, autorização, tratamento de erros mais detalhado e muito mais. Fique à vontade para explorar e expandir de acordo com suas necessidades e aprendizado contínuo.
+## Considerações
 
-Lembre-se de salvar este conteúdo em um arquivo com a extensão `.md`, como por exemplo `README.md`, no diretório raiz do seu projeto no GitHub. Certifique-se de substituir os espaços reservados (como `SEU_USUARIO` e `seu-projeto`) pelas informações reais do seu repositório e projeto.
+Este é um projeto de exemplo e pode ser aprimorado de várias maneiras, como autenticação, autorização, tratamento de erros mais detalhados e muito mais. Estou aberto a ideias e sugestões de melhorias.
