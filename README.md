@@ -1,6 +1,8 @@
 
 # Prod API 
 
+![Print](./readme/print.png)
+
 O projeto Prod API se trata de uma RESTful API básica para gerenciamento de produtos. A API permite a criação, leitura, atualização e exclusão de registros de produtos, fazendo uso do banco de dados PostgreSQL para armazenamento de dados.
 
 ## O Por quê do projeto?
