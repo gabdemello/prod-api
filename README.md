@@ -29,22 +29,29 @@ Este projeto foi criado com o objetivo de fornecer uma aplicação prática no c
 
 Para executar o projeto localmente, siga as etapas abaixo:
 
+OBS: Antes de tudo verfique se o Java SDK está instalado. Esse projeto utilizou o Java SDK 17 versão LTS.
+
 1. **Clonar o repositório:**
    ```sh
    git clone https://github.com/gabdemello/prod-api.git   
    ```
 
-2. **Configurar o PostgreSQL:**
-   Certifique-se de ter um banco de dados PostgreSQL configurado. Atualize as configurações de conexão no arquivo `application.properties`.
+2. **Configuração do PostgreSQL:**
+   Certifique-se de ter um banco de dados PostgreSQL configurado. Atualize as configurações de conexão no arquivo `application.properties` dentro da pasta `resources`.
 
-3. **Build e Run:**
-   Navegue até o diretório do projeto e execute o seguinte comando:
-   ```sh
-   ./mvnw spring-boot:run
-   ```
+3. **Instalação de dependências**
+  Abra o arquivo pom.xml utilizando o IntelliJ IDEA Community Edition, por exemplo. Ao fazer isso automáticamente o as dependências do projeto serão instaladas.
 
-4. **Acessar a API:**
-   Acesse a API através do navegador ou de um cliente HTTP, utilizando as URLs dos endpoints descritos acima.
+4. **Criação do banco de dados**
+  Abra o PostgreSQL usando a ferramente pgAdmin 4 e crie um banco de dados para o projeto. Nesse projeto o banco de dados foi criado com o nome `prod`. O nome do banco de dados
+  deve ser informado também dentro do arquivo `application.properties`, no campo `spring.datasource.url` após o localhost.
+
+5. **Execute a aplicação**
+  Execute a aplicação abrindo o arquivo `ProdapiApplication.java` dentro do IntelliJ IDEA Community Edition, por exemplo, e acione o Run (botão de play da IDE), lembrando que isso deve
+  ser feito dentro do arquivo `ProdapiApplication.java`. 
+
+6. **Acesse a API:**
+   Acesse a API utilizando uma ferramenta de requisições como o Postman, utilizando as URLs dos endpoints descritos acima.
 
 ## Tecnologias Usadas
 
